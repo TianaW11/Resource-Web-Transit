@@ -67,7 +67,35 @@ footer{
 
 }
 .button{
+    padding: 20px; 
     color: black; 
+    background-color: rgb(255, 207, 36);
+    border: none; 
+    outline: black; 
+    border-radius: 40%; 
+    font-size: 25px; 
+    position: absolute; 
+    right: 10%; 
+    top: 75%; 
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: rgb(255, 207, 36);
+    color: white;
+}
+.button2{
+    color: rgb(255, 255, 255); 
+    background-color: rgb(255, 207, 36);
+    border: none; 
+    outline: black; 
+    border-radius: 20%; 
+    font-size: 25px; 
+    position: absolute; 
+    right: 82%; 
+    top: 170%; 
+}/* button2, button3 are a placeholder for when the other 2 pages are made*/
+.button3{
+    color: rgb(255, 255, 255); 
     background-color: rgb(255, 207, 36);
     border: none; 
     outline: black; 
@@ -75,10 +103,8 @@ footer{
     font-size: 25px; 
     position: absolute; 
     right: 10%; 
-    top: 75%; 
-
+    top: 250%; 
 }
-
 .st{
   position: absolute;
   top: 110%;  
@@ -87,7 +113,7 @@ footer{
   height: 90%;
   z-index: 2; 
 }
-/* st=svg of streetcar */ 
+/* st=svg of streetcar placeholder */ 
 .describe1{
     padding: 5%; 
     border: 2px solid rgb(255, 0, 0); 
