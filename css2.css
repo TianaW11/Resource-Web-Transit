@@ -81,8 +81,25 @@ body{
     position: absolute;
     padding: 10%; 
     padding-left: 10%;
+    padding-bottom: 9%;
     top: 50%; 
     left: 177%; 
     color: white;
     
+}
+.InsidelookButton{
+    background-color: rgb(255, 207, 36);
+    position: absolute;
+    padding: 3%; 
+    padding-bottom: 0%;
+    padding-top: 0%;
+    top: 50%; 
+    left: 210%; 
+    color: black;
+    border-radius: 100%;
+    transition-duration: 0.4s;
+}
+.InsidelookButton:hover{
+    background-color: rgb(255, 207, 36);
+    color: red;
 }
